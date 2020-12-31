@@ -1,0 +1,7 @@
+{
+  "name": "renegade",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
