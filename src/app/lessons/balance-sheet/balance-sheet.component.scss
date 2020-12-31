@@ -1,0 +1,26 @@
+ion-col {
+    border: 1px solid grey;
+    text-align: center;
+  }
+
+  .tooltip {
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 200px;
+    background-color: rgb(95, 0, 0);
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 10px 0;
+    position: absolute;
+    /* Position the tooltip */
+    top: -5px;
+    left: 10%;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+    z-index:1;
+  }
