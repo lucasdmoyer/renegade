@@ -12,8 +12,9 @@ const routes: Routes = [
     loadChildren: () => import('./folder/folder.module').then( m => m.FolderPageModule)
   },
   {
-    path: 'lessons/:lesson_name',
-    loadChildren: () => import('./lessons/lessons.module').then( m => m.LessonsModule)
+    path: 'lessons',
+    loadChildren: () =>
+      import('./lessons/lessons.module').then(m => m.LessonsModule),
   }
 ];
 

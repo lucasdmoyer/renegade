@@ -13,8 +13,18 @@ export class AppComponent implements OnInit {
   public selectedIndex = 0;
   public appPages = [
     {
-      title: 'Finacial Statements',
+      title: 'Financial Statements',
       url: '/lessons/balance-sheet',
+      icon: 'calculator'
+    },
+    {
+      title: 'Simple Quant Model',
+      url: '/lessons/simple-quant-model',
+      icon: 'calculator'
+    },
+    {
+      title: 'Derivatives',
+      url: '/lessons/derivatives',
       icon: 'calculator'
     },
   ];
