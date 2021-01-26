@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { BalanceSheetComponent } from './balance-sheet/balance-sheet.component';
 import { DerivativesComponent } from './derivatives/derivatives.component';
+import { MacroEconomicsComponent } from './macro-economics/macro-economics.component';
 
 const routes: Routes = [
   {
@@ -16,6 +17,10 @@ const routes: Routes = [
   {
     path:'derivatives',
     component:DerivativesComponent
+  },
+  {
+    path:'macro-economics',
+    component:MacroEconomicsComponent
   }
 ];
 

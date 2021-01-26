@@ -27,6 +27,11 @@ export class AppComponent implements OnInit {
       url: '/lessons/derivatives',
       icon: 'calculator'
     },
+    {
+      title: 'Macro Economics',
+      url: '/lessons/macro-economics',
+      icon: 'calculator'
+    },
   ];
   public labels = ['Family', 'Friends', 'Notes', 'Work', 'Travel', 'Reminders'];
 
