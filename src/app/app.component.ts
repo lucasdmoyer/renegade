@@ -32,6 +32,11 @@ export class AppComponent implements OnInit {
       url: '/lessons/macro-economics',
       icon: 'calculator'
     },
+    {
+      title: 'Financial Crisis Timeline',
+      url: '/lessons/fin-crisis-timeline',
+      icon: 'calculator'
+    },
   ];
   public labels = ['Family', 'Friends', 'Notes', 'Work', 'Travel', 'Reminders'];
 

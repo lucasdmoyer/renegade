@@ -4,6 +4,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { BalanceSheetComponent } from './balance-sheet/balance-sheet.component';
 import { DerivativesComponent } from './derivatives/derivatives.component';
 import { MacroEconomicsComponent } from './macro-economics/macro-economics.component';
+import { FinCrisisTimelineComponent } from './fin-crisis-timeline/fin-crisis-timeline.component';
 
 const routes: Routes = [
   {
@@ -21,6 +22,10 @@ const routes: Routes = [
   {
     path:'macro-economics',
     component:MacroEconomicsComponent
+  },
+  {
+    path:'fin-crisis-timeline',
+    component:FinCrisisTimelineComponent
   }
 ];
 
