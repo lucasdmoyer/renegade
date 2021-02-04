@@ -37,6 +37,11 @@ export class AppComponent implements OnInit {
       url: '/lessons/fin-crisis-timeline',
       icon: 'calculator'
     },
+    {
+      title: 'How to Price Forward and Future Contracts',
+      url: '/lessons/forward-future-pricing',
+      icon: 'calculator'
+    },
   ];
   public labels = ['Family', 'Friends', 'Notes', 'Work', 'Travel', 'Reminders'];
 
