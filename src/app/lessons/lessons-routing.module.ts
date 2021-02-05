@@ -6,6 +6,7 @@ import { DerivativesComponent } from './derivatives/derivatives.component';
 import { MacroEconomicsComponent } from './macro-economics/macro-economics.component';
 import { FinCrisisTimelineComponent } from './fin-crisis-timeline/fin-crisis-timeline.component';
 import { FutureForwardPricingComponent } from './future-forward-pricing/future-forward-pricing.component';
+import { CommercialBanksComponent } from './commercial-banks/commercial-banks.component';
 
 const routes: Routes = [
   {
@@ -31,6 +32,10 @@ const routes: Routes = [
   {
     path: 'forward-future-pricing',
     component: FutureForwardPricingComponent
+  },
+  {
+    path: 'commercial-banks',
+    component: CommercialBanksComponent
   }
 ];
 

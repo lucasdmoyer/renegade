@@ -42,6 +42,11 @@ export class AppComponent implements OnInit {
       url: '/lessons/forward-future-pricing',
       icon: 'calculator'
     },
+    {
+      title: 'Commercial Banks',
+      url: '/lessons/commercial-banks',
+      icon: 'calculator'
+    },
   ];
   public labels = ['Family', 'Friends', 'Notes', 'Work', 'Travel', 'Reminders'];
 
