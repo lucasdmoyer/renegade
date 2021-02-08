@@ -47,6 +47,11 @@ export class AppComponent implements OnInit {
       url: '/lessons/commercial-banks',
       icon: 'calculator'
     },
+    {
+      title: 'OBS Activities',
+      url: '/lessons/off-balance-sheet',
+      icon: 'calculator'
+    },
   ];
   public labels = ['Family', 'Friends', 'Notes', 'Work', 'Travel', 'Reminders'];
 

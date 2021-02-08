@@ -7,6 +7,7 @@ import { MacroEconomicsComponent } from './macro-economics/macro-economics.compo
 import { FinCrisisTimelineComponent } from './fin-crisis-timeline/fin-crisis-timeline.component';
 import { FutureForwardPricingComponent } from './future-forward-pricing/future-forward-pricing.component';
 import { CommercialBanksComponent } from './commercial-banks/commercial-banks.component';
+import { OffBalanceSheetComponent } from './off-balance-sheet/off-balance-sheet.component';
 
 const routes: Routes = [
   {
@@ -36,6 +37,10 @@ const routes: Routes = [
   {
     path: 'commercial-banks',
     component: CommercialBanksComponent
+  },
+  {
+    path: 'off-balance-sheet',
+    component: OffBalanceSheetComponent
   }
 ];
 
