@@ -52,6 +52,16 @@ export class AppComponent implements OnInit {
       url: '/lessons/off-balance-sheet',
       icon: 'calculator'
     },
+    {
+      title: 'Insurance firms',
+      url: '/lessons/off-balance-sheet',
+      icon: 'calculator'
+    },
+    {
+      title: 'Swaps',
+      url: '/lessons/swaps',
+      icon: 'calculator'
+    },
   ];
   public labels = ['Family', 'Friends', 'Notes', 'Work', 'Travel', 'Reminders'];
 

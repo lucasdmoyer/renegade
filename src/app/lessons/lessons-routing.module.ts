@@ -8,6 +8,8 @@ import { FinCrisisTimelineComponent } from './fin-crisis-timeline/fin-crisis-tim
 import { FutureForwardPricingComponent } from './future-forward-pricing/future-forward-pricing.component';
 import { CommercialBanksComponent } from './commercial-banks/commercial-banks.component';
 import { OffBalanceSheetComponent } from './off-balance-sheet/off-balance-sheet.component';
+import { InsuranceComponent } from './insurance/insurance.component';
+import { SwapsComponent } from './swaps/swaps.component';
 
 const routes: Routes = [
   {
@@ -41,6 +43,14 @@ const routes: Routes = [
   {
     path: 'off-balance-sheet',
     component: OffBalanceSheetComponent
+  },
+  {
+    path: 'insurance',
+    component: InsuranceComponent
+  },
+  {
+    path: 'swaps',
+    component: SwapsComponent
   }
 ];
 

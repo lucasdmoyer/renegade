@@ -1,0 +1,46 @@
+<ion-header>
+  <ion-card-title>Swaps</ion-card-title>
+  <ion-card-subtitle>Fixed or Variable?</ion-card-subtitle>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <h1>Swaps</h1>
+  
+  <p>A swap is an agreement to exchange cash flows at specified future times according to certain specified rules.</p>
+  <p>Often users of swaps will either exchange a fixed rate loan to a floating rate loan, or a floating rate loan to a fixed rate. They want to do this because a firm may have a competitive advantage in either fixed or floating rates (due to credit score, etc) and an create savings by exchanging these interest rates.</p>
+  <h2>Comparative Advantage</h2>
+  <img src="../../../assets/images/swaps.png">
+  <p>Here AAA Corp wants to borrow floating rate, but has the most comparative advances in fixed rates at 1.2% lower than BBB (Big Baller Business?) Corp. As shown, the exchange ends up saving each firm 0.25% in what they were paying before or 0.5% total. Another way to calculate this is the two is to take the difference in fixed rates between the two firms, and minus the difference in advantage the floating rates. (1.2% - 0.7% = 0.5%). </p>
+  <h3>Arguments against comparative advantage</h3>
+  <p>If these two corps took a multiyear loan, but are only exchanging a 6-month LIBOR, then if the credit grade of AAA changes, the LIBOR will change while the fixed rates stay fixed. </p>
+  <h2>Valuation of a Interest Rate Swap</h2>
+  <p>Similar to a futures contract, these swaps are worth near $0 when they are written. The LIBOR is not known when the contract is written, so it must be determined to be profitable for both firms, so for both firms to agree, it be profitable for both firms.</p>
+  <p>To value the swap: </p>
+  <ul>
+    <li>
+      Calculate LIBOR forward rates
+    </li>
+    <li>Calculate the swap cash flows that will occur if LIBOR forward rates are realized</li>
+    <li>Discount these swap cash flows at OIS rates</li>
+  </ul>
+  <img src="../../../assets/images/swap_value.png">
+  <p>The value of the swap from A's perspective, is $0.5517 million for the $100 M loan. If either party wants to get out of the swap, they can sell it for $0.5517 M.</p>
+
+  <h2>Calculate the forward rate LIBOR</h2>
+  <img src="../../../assets/images/LIBOR_forward_rate.png">
+  <h2>Fixed-for-fixed currency swap</h2>
+  <p>With a currency swap, the principle is exchanged at the beginning and end of swap. The purpose of a currency swap is to either convert a liability in one currency to a liability in another currency, or to convert an investment in one currency to an investment in another currency.</p>
+  <p>Here is an example of a fixed for fixed currency swap.</p>
+  <ul>
+    <li>BP will get $15 M and pays 3% interest</li>
+    <li>BP will pay $10 M Sterling and pay 4% interest</li>
+    <li>In a currency swap, the principle is exchanged at the beginning and then back at the end of the swap.</li>
+  </ul>
+  <p>Below are the cash flows of this situation. Pay attention to the principle being exchanged.</p>
+<img src="../../../assets/images/fixed_for_fixed_currency_swap.png">
+<h2>Valuation of a currency swap</h2>
+<h3>Forward Rate method</h3>
+<img src="../../../assets/images/currency_swap_valuation_forward_rate.png">
+<h3>Present Value of Cash Flows method</h3>
+<img src="../../../assets/images/currency_swap_valuation_PV.png">
+</ion-content> 
