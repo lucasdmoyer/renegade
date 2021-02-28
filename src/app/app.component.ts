@@ -54,12 +54,22 @@ export class AppComponent implements OnInit {
     },
     {
       title: 'Insurance firms',
-      url: '/lessons/off-balance-sheet',
+      url: '/lessons/insurance',
       icon: 'calculator'
     },
     {
       title: 'Swaps',
       url: '/lessons/swaps',
+      icon: 'calculator'
+    },
+    {
+      title: 'Financial Markets',
+      url: '/lessons/financial-markets',
+      icon: 'calculator'
+    },
+    {
+      title: 'Mortgage and Securitization',
+      url: '/lessons/mortgage-securitization',
       icon: 'calculator'
     },
   ];

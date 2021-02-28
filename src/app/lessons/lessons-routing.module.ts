@@ -10,6 +10,8 @@ import { CommercialBanksComponent } from './commercial-banks/commercial-banks.co
 import { OffBalanceSheetComponent } from './off-balance-sheet/off-balance-sheet.component';
 import { InsuranceComponent } from './insurance/insurance.component';
 import { SwapsComponent } from './swaps/swaps.component';
+import { FinancialMarketsComponent } from './financial-markets/financial-markets.component';
+import { MortgageSecuritizationComponent } from './mortgage-securitization/mortgage-securitization.component';
 
 const routes: Routes = [
   {
@@ -51,6 +53,14 @@ const routes: Routes = [
   {
     path: 'swaps',
     component: SwapsComponent
+  },
+  {
+    path: 'financial-markets',
+    component: FinancialMarketsComponent
+  },
+  {
+    path: 'mortgage-securitization',
+    component: MortgageSecuritizationComponent
   }
 ];
 
