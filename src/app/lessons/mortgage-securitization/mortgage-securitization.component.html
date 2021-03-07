@@ -4,5 +4,43 @@
 </ion-header>
 
 <ion-content class="ion-padding">
- 
+ <h1>Mortgages</h1>
+ <p>A mortgage is a loan to purchase a home, land, or other real property. They are a type of collateralized loan meaning you have put post collateral (your house or property) and pay a down payment to get a mortgage. In case of default, the house is foreclosed and is collected by the bank. In 2004, the value of mortgages were over $10 trillion (86% of GDP). Of all mortgages, 77% of them are home mortgages. </p>
+ <p>There is a moral hazard problem of people not paying your mortgage payments, so down payments are required so they have "skin in the game".</p>
+ <p>Banks figured out a way to stop caring about the quality of the borrowers (sub prime mortgages) because they started to transfer the mortgages to a SPV (Special Purpose Vehicle). </p>
+ <h1>Securitization</h1>
+ <p>Securitization is the process of packaging and selling of loans. This process requires an ABS (Asset Backed Security) such as a loan which is then repacked (for example into a CDO), and then sold to investors.</p>
+ <p>Here is a picture of a bank, a special purpose vehicle, and the investors who buy ABS'. The balance sheets are also shown in this picture. Here you can see the bank transferring a loan to an SPV which then sells it as an ABS to investors. Banks no longer have to care about the quality of the loan they are selling since the SPV is treated as a separate entity as them.</p>
+ <h2>Types of ABS - Based on collateral type</h2>
+ <ul>
+   <li>RMBS - Residential Mortgage Backed Security</li>
+   <li>CMO - Collateralized Mortgage Obligation</li>
+   <li>CLO - Collateralized Loan Obligation</li>
+   <li>CDO - Collateralized Debt Obligation</li>
+   <li>Collateralized Debt Obligation "Squared" (the CDO itself is the underlying asset)</li>
+ </ul>
+ <h2>Types of ABS - Based on Distribution methods)</h2>
+ <h3>Pass-Through securities</h3>
+ <p>Here SPVs will pay investors equally based on a weight of their initial investment. The Issuer collects monthly payments from a pool of mortgages and then passes on a proportionate share of the collected principal and interest to bondholders.</p>
+ <p>Examples are:</p>
+ <ul>
+   <li>Government National Mortgage Assocation (GNMA)</li>
+   <li>Federal National Mortgage Association (FNMA)</li>
+   <li>Federal Home Loan Mortgage Corporation (FHLMC)</li>
+ </ul>
+ <h3>Collateralized Mortgage (CMO)</h3>
+ <p><b>Collateralized = Traunching</b></p>
+ <p>Here the SPV will split the pool of mortgages by tranches and prioritize payments back to investors by tranche. The first tranche to be paid is called the <b>Senior Tranche</b> while the last to get paid is the <b>Equity Tranche</b>. The lower the prioritization, the higher yield the investor expects to be paid.</p>
+ <p>Here there is a re-distribution risk because if the SPV doesn't received enough money from the mortgage pool to pay back investors, the lowest priority tranche will not be paid.</p>
+ <p>The larger the equity tranche is, the more buffer and protection the CDO's senior tranche will have.</p>
+ <h4>What is we don't want re-distribution risk?</h4>
+ <p>Asset Backed Commercial Papers work like ABS but instead of a SPV, a SIV (Structured Investment Vehicle) issues commercial paper to purchase the bank loans. SIV's are obligated to pay back investors even if they do not generate sufficient cash flows from the bank loans (mortgages).</p>
+ <p>When the cash flows exceed costs, the SIV gets to keep the spread. Due to this set up, SIV's have liquidity risk and exposure to runs.</p>
+ <h1>What happened during the Financial Crisis?</h1>
+ <p>Investors typically prefer CDO's with large equity tranches because they provide a buffer so they can receive payments if they own the senior tranche. However senior tranches are worth more because of their low risk nature, so they can be sold to investors at high prices.</p>
+ <img src="../../../assets/images/CDO_tranche.png">
+<p>In this example, investors would prefer CDO #1, but SPV's prefer selling CDO #2 (with a large senior tranche/higher price) which creates a conflict of interest. Underwriters for these CDO's would mislead investors about tranches so they could sell CDO's that followed CDO #2 even though investors thought they were buying CDO #1.</p>
+<p>CDO's can be repackaged into more CDO's which makes them complicated to investors and easy to mislead.</p>
+<p>Finally here is a wrap up of the CDO process.</p>
+<img src='../../../assets/images/CDO_process.png'>
 </ion-content> 

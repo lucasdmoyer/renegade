@@ -12,6 +12,7 @@ import { InsuranceComponent } from './insurance/insurance.component';
 import { SwapsComponent } from './swaps/swaps.component';
 import { FinancialMarketsComponent } from './financial-markets/financial-markets.component';
 import { MortgageSecuritizationComponent } from './mortgage-securitization/mortgage-securitization.component';
+import { OptionsMechanicsComponent } from './options-mechanics/options-mechanics.component';
 
 const routes: Routes = [
   {
@@ -61,6 +62,10 @@ const routes: Routes = [
   {
     path: 'mortgage-securitization',
     component: MortgageSecuritizationComponent
+  },
+  {
+    path: 'options-mechanics',
+    component: OptionsMechanicsComponent
   }
 ];
 
