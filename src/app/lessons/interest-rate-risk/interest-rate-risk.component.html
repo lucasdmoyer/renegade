@@ -1,0 +1,74 @@
+<ion-header>
+  <ion-card-title>Interest Rate Risk</ion-card-title>
+  <ion-card-subtitle></ion-card-subtitle>
+</ion-header>
+
+<ion-content class="ion-padding">
+
+  <h1>What is interest rate risk?</h1>
+  <p>Interest rate risk is a type of market risk that has to do with interest rates. Fixed income and fixed liabilities
+    are what mainly gets affected.</p>
+  <p>When there is a difference in maturities between a firm's assets and liabilities, there is a <b>maturity
+      mismatch</b> meaning there is interest rate risk.</p>
+  <h2>Why is maturity mismatch a bad thing?</h2>
+  <h3>Refinancing Risk</h3>
+  <p>Say you are a firm and you issue $100M of liabilites of 1-year maturity to finance a project (assets). This project
+    needs $100M/year with a 2-year maturity</p>
+  <p>The maturity in assets is longer than that of liabilities. What will you do at the end of year one when you your
+    liabilities are due and you have to refinance your project (assets)?</p>
+  <img src="../../../assets/images/refinancing-risk.PNG">
+  <p>In this case, there is a mismatch of maturities between Assets and Liabilities. There is an amount of $100 M
+    liabilities whose interest rate has changed. $100 M liabilities will need to be repriced in one year.</p>
+  <h3>Reinvestment Risk</h3>
+  <p>Now imagine you have 2 years of set liabilities, and only 1 year of set assets.</p>
+  <img src='../../../assets/images/reinvestment-risk.PNG'>
+  <p>When you secure assets for year 2, there is a risk that the interest you earn on your assets is less than what you
+    are paying for your liabilities.</p>
+  <p>In this case, there is a mismatch of maturities between assets and liabilities. There is an amount of $100M assets
+    whose interest rate is changed. $100M of assets needs to be repriced in one year.</p>
+
+  <h1>Why do interest rates change?</h1>
+  <p>Interest rates essential measure the cost of money, meaning the amount of money in the open market determine the
+    interest rate.</p>
+  <p>The central bank of a country controls the interest rate level through <b>open market operations</b>.</p>
+  <p>Open market operations influence the money supply. These actions can be buying and selling government bonds on the
+    open market. If the government purchases government bonds, cash will be transferred from the government to the open
+    market, so there will be more money supply. A higher money supply will lower the interest rate.</p>
+  <p>During the 2008 financial crisis and COVID crisis, the US governemnt lowered interest rates in order to stimulate
+    the economy.</p>
+  <p>When the US Federal Reserve bank deciedes to raise interest rate, it will go to the open market and sell government
+    bonds which will reduce the money supply, thus raising interest rates.</p>
+
+  <h2>Historical look at interest rates</h2>
+  <img src="../../../assets/images/US-Treasury-Bills.PNG">
+  <p>Taking a look at historical T-Bill rates, you will notice they are volatile. They move with business cycles. When
+    their is a recession, interest rates are lowered. When there is an economic boom or inflation, interest rates rise.
+  </p>
+  <p>Recently interest rates have been low. In the early 2000s low interest rates were caused by the bursting tech
+    bubble and the 9/11 terrorist attacts. Moving forward, banks took advantage of low interest rates and began to issue
+    subprime mortgage loans. As the economy strengthend, interest rates begain to rise around mid 2000s. This caused the
+    subprime mortgages to default and during the 2008 financial crisis, interest rates began to decrease again.</p>
+
+  <h2>Future interest rates</h2>
+  <p>If we know interest rates rise and fall with the economy, can we predict future interest rates? We would want to be
+    able to predict future interest rates, so we might be able to hedge against interest rate risk.</p>
+  <h3>Term Structure of Interest Rates</h3>
+  <p>Term structure of interest rates describes the yields of a security when the maturity of the security changes, while everything else is kept constant.</p>
+  <p>Yields can also be called Yield to Maturity or YTM. This yield (YTM) is different than the YTM when discussing bond values. For a bond, YTM is the discount rate that is used to calculate the price of a bond.</p>
+  <h4>More info about bonds</h4>
+  <p>When the YTM is lower than the coupon rate of a bond, you have a premium bond. When the YTM is higher, you have a discount bond. When the coupon rate and YTM are the same, the bond is at its par value.</p>
+  <p>For the rest of this article, YTM will refer to the interest rate, and not the discount rate of a bond.</p>
+  <h3>Term Structure of Interest Rates (Yield Curves)</h3>
+  <p>Here are 4 difference yield curves. On the y-axis is YTM, and the x-axis is maturity time. Yield curves describe how interest rates change over time.</p>
+  <img src='../../../assets/images/yield-curves.PNG'>
+  <h4>How are yield curves dervied?</h4>
+  <p>The <b>Unbiased Expectations Theory</b> describes the relationship between long-term rates and short-term rates. Long-term rates are the geometric average of current and expected short-term rates. Since we do not know future rates, we use expected rates.</p>
+  <img src='../../../assets/images/unbiased-expectations-theory.PNG'>
+  <p>Here is an example of a 2 year maturity where we assume that the expected interest rate in year 2 will larger than that of the first year.</p>
+  <img src='../../../assets/images/unbiased-expectations-theory-2-year.PNG'>
+  
+  <h1>How can we measure interest rate risk?</h1>
+  <h2>Repricing Model</h2>
+  <p>The Repricing Model is to measure potential changes in interest income and interest expense over the near future due to changes in interest rates.</p>
+  <p>Here is an example</p>
+</ion-content>

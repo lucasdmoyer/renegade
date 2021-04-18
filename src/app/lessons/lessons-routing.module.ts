@@ -1,3 +1,4 @@
+import { InterestRateRiskComponent } from './interest-rate-risk/interest-rate-risk.component';
 import { SimpleQuantModelComponent } from './simple-quant-model/simple-quant-model.component';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
@@ -66,6 +67,10 @@ const routes: Routes = [
   {
     path: 'options-mechanics',
     component: OptionsMechanicsComponent
+  },
+  {
+    path: 'interest-rate-risk',
+    component: InterestRateRiskComponent
   }
 ];
 

@@ -78,6 +78,11 @@ export class AppComponent implements OnInit {
       url: '/lessons/options-mechanics',
       icon: 'calculator'
     },
+    {
+      title: 'Interest Rate Risk',
+      url: '/lessons/interest-rate-risk',
+      icon: 'calculator'
+    },
   ];
   public labels = ['Family', 'Friends', 'Notes', 'Work', 'Travel', 'Reminders'];
 
