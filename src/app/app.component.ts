@@ -83,6 +83,41 @@ export class AppComponent implements OnInit {
       url: '/lessons/interest-rate-risk',
       icon: 'calculator'
     },
+    {
+      title: 'Volatility Smile',
+      url: '/lessons/volatility-smile',
+      icon: 'calculator'
+    },
+    {
+      title: 'Credit Risk',
+      url: '/lessons/credit-risk',
+      icon: 'calculator'
+    },
+    {
+      title: 'Valuation',
+      url: '/lessons/valuation',
+      icon: 'calculator'
+    },
+    {
+      title: 'Product Management',
+      url: '/lessons/marketing/product-management',
+      icon: 'calculator'
+    },
+    {
+      title: 'Organization Buying Behavior',
+      url: '/lessons/marketing/organization-buying-behavior',
+      icon: 'calculator'
+    },
+    {
+      title: 'Marketing Research',
+      url: '/lessons/marketing/marketing-research',
+      icon: 'calculator'
+    },
+    {
+      title: 'The Corporation',
+      url: '/lessons/corporation',
+      icon: 'calculator'
+    },
   ];
   public labels = ['Family', 'Friends', 'Notes', 'Work', 'Travel', 'Reminders'];
 

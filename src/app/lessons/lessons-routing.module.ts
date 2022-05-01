@@ -1,3 +1,8 @@
+import { MarketingResearchComponent } from './marketing/marketing-research/marketing-research.component';
+import { ProductManagementComponent } from './marketing/product-management/product-management.component';
+import { ValuationComponent } from './valuation/valuation.component';
+import { CreditRiskComponent } from './credit-risk/credit-risk.component';
+import { VolatilitySmileComponent } from './volatility-smile/volatility-smile.component';
 import { InterestRateRiskComponent } from './interest-rate-risk/interest-rate-risk.component';
 import { SimpleQuantModelComponent } from './simple-quant-model/simple-quant-model.component';
 import { NgModule } from '@angular/core';
@@ -14,6 +19,8 @@ import { SwapsComponent } from './swaps/swaps.component';
 import { FinancialMarketsComponent } from './financial-markets/financial-markets.component';
 import { MortgageSecuritizationComponent } from './mortgage-securitization/mortgage-securitization.component';
 import { OptionsMechanicsComponent } from './options-mechanics/options-mechanics.component';
+import { OrganizationBuyingBehaviorComponent } from './marketing/organization-buying-behavior/organization-buying-behavior.component';
+import { CorporationComponent } from '../lessions/corporation/corporation.component';
 
 const routes: Routes = [
   {
@@ -71,6 +78,30 @@ const routes: Routes = [
   {
     path: 'interest-rate-risk',
     component: InterestRateRiskComponent
+  },
+  {
+    path: 'volatility-smile',
+    component: VolatilitySmileComponent
+  },
+  {
+    path: 'credit-risk',
+    component: CreditRiskComponent
+  },
+  {
+    path: 'valuation',
+    component: ValuationComponent
+  },
+  {
+    path: 'marketing/product-management',
+    component: ProductManagementComponent
+  },
+  {
+    path: 'marketing/marketing-research',
+    component: MarketingResearchComponent
+  },
+  {
+    path: 'corporation',
+    component: CorporationComponent
   }
 ];
 

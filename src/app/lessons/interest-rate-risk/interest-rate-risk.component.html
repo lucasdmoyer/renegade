@@ -70,5 +70,61 @@
   <h1>How can we measure interest rate risk?</h1>
   <h2>Repricing Model</h2>
   <p>The Repricing Model is to measure potential changes in interest income and interest expense over the near future due to changes in interest rates.</p>
-  <p>Here is an example</p>
+  <p>Here the formula and examples of it from the earlier examples of refinancing and reinvestment risk. The repricing model tells you how much a firm will gain or lose from a change in interest rates.</p>
+  <img src='../../../assets/images/repricing-model.PNG'>
+  <p>The difference between the amount that needs to be repricing and the amount of liability that needs to be repricing is known as the <b>repricing gap</b>. When discussing a repricing gap, it is important to identify the time period that the assets/liabilities will need to be repriced. This is known as the <b>Maturity Buckets</b>.</p>
+  <h3>Steps to use repricing model</h3>
+  <ul>
+    <li>Choose your repricing interval (maturity buckets)</li>
+    <li>Determine the rate sensitive assets and rate sensitive liabilities</li>
+    <ul>
+      <li>Will or can this asset or liability have its interest rate changed within a particular maturity bucket?</li>
+      <li>If yes, then it is a rate-sensitive asset/liability.</li>
+    </ul>
+  </ul>
+  <p>You can find the repricing gaps for assets and liabilities fairly easily. The Federal reserve bank requires that commercial banks report their repricing gaps with maturities of</p>
+  <ul>
+    <li>One day</li>
+    <li>More than three months to six months</li>
+    <li>More than six months to twelve months</li>
+    <li>More than one year to five years</li>
+    <li>Over five years</li>
+  </ul>
+  <p>Here is an example of rate sensitive assets in a balance sheet for a maturity bucket of 1 year.</p>
+  <img src="../../../assets/images/maturity-buckets.PNG">
+  <h3>Some things to note about the repricing model</h3>
+  <p>When the repricing gap is negative, that means that there are more rate sensitive liabilities than assets. When liabilities are greater than assets, there is more refinancing risk than reinvestment risk. That means that as interest rates increase, we are more exposed to interest rate risk through our refinancing risk.</p>
+  <p>A similar thing can be said when rate sensitive assets are greater than liabilities. This means there is more reinvestment risk, and there would be a benefit to us from an increase in interest rates.</p>
+  <p>The opposite happens if interest rates decrease. When interest rates decrease, it is a good thing for refinancing risk (since you can get better rates), and a bad thing for reinvestment risk (since your investment will cost more).</p>
+  <h3>What happens if interest rates change differently for assets and liabilities?</h3>
+  <img src="../../../assets/images/unequal-repricing.PNG">
+  <h3>Weaknesses of Repricing Model</h3>
+  <ul>
+    <li>The repricing model depends solely on the balance sheet which records book values and not market value.</li>
+    <li>Ignores off-balance sheet cash flows</li>
+    <li>Distribution of assets and liabilities within individual buckets is not considered. Mismatches within bucekts can be substantial.</li>
+    <li>Ignores effects of runoffs. Banks continuously originate and retire consumer and mortgage loans. Runoffs may be rate-sensitive.</li>
+  </ul>
+  <h2>A second way to measure interest rate risk: Duration</h2>
+  <p>Let's build up the intuition of duration first.</p>
+  <p>Let's first see how the market price of bonds is affected by interest rate change. In general, the longer the term to maturity, the greater the sensitivity to interest rate changes there are. This is mainly because when we price bonds, we discount the coupon payment of the bond by the interest rate (YTM). For longer period bonds, the discount factor compounds more than a shorter period bond.</p>
+  <p>Another trend with interest rates and bond prices is that higher coupon bonds are less sensitive to changes in interest rates. This is because high coupon bonds generate more earlier on cash flows which get discounted less. </p>
+  <p>Now, what happens to bond prices when the coupon payments and maturity times change? This is what we can use duration for.</p>
+  <h3>Duration</h3>
+  <p>Duration is the weighted average time to maturity using the relative present values of the cash flows as weights; The units of duration are years. Duration combines the effects of differences in coupon rates and differences in maturity. It is based on the elasticity of bond price with respect to interest rate.</p>
+  <img src="../../../assets/images/duration-example.PNG">
+  <p>A thing to note is that duration is typically smaller than the length of the bond since duration is weighted with earlier coupon payments.</p>
+  <p>You can think of duration as the "adjusted maturity" based on the actual maturity but adjusted for the effect of coupon payments on the relation between bond value and interest rating changes. In other words, duration takes into account the market value of the bond.</p>
+  <h4>The bond with the higher duration is more sensitive to interest rate changes.</h4>
+  <h3>Features of duration</h3>
+  <h4>Duration and Maturity</h4>
+  <p>As you increase the maturity of a bond, the duration increases. This is because duration is simply an adjusted maturity. However the amount of duration increases is less as the maturity keeps increases. This is because far into the future cash flows are heavily discounted, so their effect on duration is less.</p>
+  <h4>Duration and Coupon</h4>
+  <p>As you increase coupon payments, the duration decreases. This is because more coupon payments put more weight on the earlier cash payments, thus reducing the duration.</p>
+  <h4>Duration and YTM</h4>
+  <p>As you increase the YTM, the duration decreases. This is because with a higher YTM, later cash flows will be more heavily discounted, thus the duration will decrease.</p>
+  <p>The duration of a zero-coupon bond is the same as the maturity since 100% of its present value is generated by the payment of the face value, at maturity.</p>
+  <h3>How does Duration manage interest rate risk?</h3>
+  <p>We can use match the duration of assets and liabilities which will offset profits if interest rates rise or fall. This is called <b>Balance Sheet Immunization</b>.</p>
+  <p>TODO duration elasticity, @1:53</p>
 </ion-content>
