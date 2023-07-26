@@ -17,7 +17,7 @@ import { MzdTimelineModule } from 'ngx-mzd-timeline';
   imports: [
     BrowserModule,
     IonicModule.forRoot(),
-    MzdTimelineModule,
+    MzdTimelineModule, 
     AppRoutingModule
   ],
   providers: [

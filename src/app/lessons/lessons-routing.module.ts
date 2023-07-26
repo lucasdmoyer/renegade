@@ -21,6 +21,7 @@ import { MortgageSecuritizationComponent } from './mortgage-securitization/mortg
 import { OptionsMechanicsComponent } from './options-mechanics/options-mechanics.component';
 import { OrganizationBuyingBehaviorComponent } from './marketing/organization-buying-behavior/organization-buying-behavior.component';
 import { CorporationComponent } from '../lessions/corporation/corporation.component';
+import { OperationsManagementComponent } from '../lessions/operations-management/operations-management.component';
 
 const routes: Routes = [
   {
@@ -102,6 +103,10 @@ const routes: Routes = [
   {
     path: 'corporation',
     component: CorporationComponent
+  },
+  {
+    path: 'operations',
+    component: OperationsManagementComponent
   }
 ];
 

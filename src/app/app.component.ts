@@ -118,6 +118,11 @@ export class AppComponent implements OnInit {
       url: '/lessons/corporation',
       icon: 'calculator'
     },
+    {
+      title: 'Operations Management',
+      url: '/lessons/operations',
+      icon: 'calculator'
+    },
   ];
   public labels = ['Family', 'Friends', 'Notes', 'Work', 'Travel', 'Reminders'];
 
